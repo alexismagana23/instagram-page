@@ -1,0 +1,49 @@
+body{
+    background:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.post-container{
+    background: white;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.coupled{
+    display: flex;
+    flex-direction: row;
+}
+.topleftcontent{
+    display:flex;
+    flex-direction: row;
+}
+/* .rigo{
+    display: flex;
+    flex-direction: column;
+} */
+.lefttext{
+    padding-left: 10px;
+}
+
+img{
+
+    width: 100%;
+
+}
+p{
+    padding: 2px;
+    margin-left:13px
+}
